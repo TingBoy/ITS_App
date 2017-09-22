@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="488dp"
+        tools:context=".MapsActivity" />
+
+    <Button
+        android:id="@+id/pull"
+        android:text="Pull"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="pull" />
+
+    <TextView
+        android:id="@+id/BSSID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30px"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/SSID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30px"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/IPAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30px"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/RSSI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30px"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/LinkSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30px"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/Coords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30px"
+        android:textAlignment="center"/>
+
+</LinearLayout>
